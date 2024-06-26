@@ -34,37 +34,20 @@ document.write('		</div>');
 				document.write('		<div class="row topmenu">');
 				document.write('			<div>');
 				document.write('				<ul>');
-				document.write('				 <li><a href="http://www.nist.edu/index.php#CONTACT">CONTACT</a></li>');
 				document.write('				  <li><a href="/downloads/downloads.html">DOWNLOADS</a></li>');
 				document.write('				  <li><a href="/gallery/gallery.html">GALLERY</a></li>');
-				document.write('				  <li><a href="https://alumni.nist.edu/" target="_blank">ALUMNI</a></li>');
-<!--						document.write('				  <li><a href="http://alumninist.in/" target="_blank">ALUMNI</a></li>');-->
-				document.write('				  <li><a href="/Student/student.html">STUDENTS</a></li>');
-				document.write('				  <li><a href="/faculty/forms/faculty.php">FACULTY</a></li>');
-//				document.write('				  <li><a href="/about/messages.html">FROM&nbsp;THE&nbsp;CHAIRMAN&nbsp;</a></li>');
-				document.write('				  <li><a href="/about/messages.html">CHAIRMAN MESSAGE</a></li>');				
-//                document.write('				  <li><a href="/about/news.html">NEWS</a></li>');
+
 				document.write('				</ul>');			 
 				document.write('			</div>');
 				document.write('		</div>');
 		document.write('</div>');
 		document.write('<div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 search-section">');
-				document.write('				<form id="searchbox_000399333377651994758:ctddcpckvay" action="http://www.nist.edu/search.php" name="frmSearch">');
-				document.write('				<input value="000399333377651994758:ctddcpckvay" name="cx" type="hidden"/>');
-				document.write('				<input value="FORID:11" name="cof" type="hidden"/>');
-				document.write('				<input type="textbox" placeholder="Search" class="search" id="q" name="q"> &nbsp;<a href="javascript:void search()"><i class=" glyphicon glyphicon-search"></i></a>');
-				document.write('				</form>');
-		document.write('</div>');
+					document.write('</div>');
 document.write('    </div>');
 document.write('			<div class="row logosection">');
 document.write('				<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 logo">');
-document.write('					<a href="http://www.nist.edu/" style="border:0px;"><img src="/images/nist.png" class="img-responsive img-logo"> </a>');
 document.write('				</div>');
 document.write('				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 org-name">');
-document.write('					<p><b>NIST Institute of Science and Technology (Autonomous)</b><br>');
-//document.write('					<p><b>NIST UNIVERSITY</b><br>');
-//document.write('					<span>Institute Park, Pallur Hills, Berhampur, Odisha</span></p>');
-document.write('					<span>Institute Park, Berhampur, Odisha-761008, India</span></p>');
 document.write('				</div>');
 document.write('				<div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 logo">');
 document.write('					<div class="row">');
@@ -133,16 +116,7 @@ document.write('												<li class="about-block">');
 document.write('													<a href="/academics/College_Of_Engineering.html"><span class="menu-header">COLLEGE OF ENGINEERING</span></a>');
 document.write('													<a href="/academics/BTech.html">B.TECH</a>');
 document.write('													<ul>');
-document.write('														<li><a href="/academics/BTech_CSE.html">Computer Science and Engineering</a></li>');
-document.write('														<li><a href="/academics/BTech_ECE.html">Electronics and Comm. Engineering</a></li>');
-document.write('														<li><a href="/academics/BTech_EEE.html">Electrical & Electronics Engineering</a></li>');
-document.write('														<li><a href="/academics/BTech_CSE.html">Information Technology</a></li>');
-document.write('														<li><a href="/academics/BTech_ME.html">Mechanical Engineering</a></li>');
-document.write('														<li><a href="/academics/BTech_EE.html">Electrical Engineering</a></li>');
-document.write('														<li><a href="/academics/BTech_CE.html">Civil Engineering</a></li>');
-document.write('														<li><a href="/academics/BTech_CSE.html">Computer Science and Technology</a></li>');
-document.write('														<li><a href="/academics/BTech_ECE.html">Electronics and Computer Engineering</a></li>');
-document.write('													</ul>');
+.write('													</ul>');
 document.write('													<a href="/academics/MTech.html">M.TECH</a>');
 document.write('													<ul>');
 document.write('														<li><a href="/academics/MTech_CSE.html">Computer Science and Engineering</a></li>');
@@ -179,7 +153,6 @@ document.write('													<ul>');
 document.write('														<li><a href="/summercourse/index.html">Employment Oriented Courses </a></li>');
 document.write('														<li><a href="/academics/skills.html">Skill Development Program</a></li>');
 /*document.write('														<li><a href="/Announcement/SummerCamp.pdf" target="_blank">Summer School</a></li>');*/
-document.write('														<li><a href="https://nist.edu/summercourse/index.html" target="_blank">Summer School</a></li>');
 document.write('													</ul>');
 document.write('													<a href="/academics/calendars.php"><span class="menu-header">ACADEMIC CALENDAR</span></a>');
 document.write('<a href="/academics/syllabus.html"><span class="menu-header">SYLLABUS</span></a>');
@@ -233,7 +206,6 @@ document.write('											</ul>');
 document.write('										</li>');
 document.write('										<li class="menu-studentlife"  ><a href="/StudentLife/StudentLife.html">STUDENT&nbsp;LIFE</a></li>');
 <!--document.write('										<li class="menu-studentlife"  ><a href="/about/ncc.html">NCC</a></li>');-->
-document.write('										<li class="menu-ADMISSION" style="background:yellow; height: auto; cursor:pointer"><a href="https://admission.nist.edu/application-form"><span class="announcement-icon" style="background:yellow; color:red;">ADMISSION 2024</span></a>');
 document.write('											<ul class="ADMISSION-submenu">');
 document.write('												<li>');
 document.write('													<ul>');
@@ -242,47 +214,13 @@ document.write('													</ul>');
 document.write('												</li>');
 document.write('												<li class="about-block">');
 document.write('													<ul>');
-document.write('														<li><a href="https://admission.nist.edu/application-form">INTRODUCTION</a></li>');
-//document.write('														<li><a href="/admission/admission.php#admissionbg">INTRODUCTION</a></li>');
-document.write('														<li><a href="https://admission.nist.edu/application-form">ENQUIRY</a></li>');
-//document.write('														<li><a href="http://www.nist.edu/index.php#CONTACT">ENQUIRY</a></li>');
-//document.write('														<li><a href="http://www.nist.edu/admission/generalinfo.html">ADMISSION 2021(REPORTING INFO)<img style="vertical-align:middle;" src="/images/new_animated.gif" alt="New Blink" width="26" height="26"> </a></li>');
-document.write('														<li><a href="/admission/admission.php#INTRODUCTION">MESSAGE FROM THE CHAIRMAN</a></li>');
-document.write('														<li><a href="/admission/admission.php#WHYNIST">WHY JOIN NIST</a></li>');
-document.write('														<li><a href="https://admission.nist.edu/application-form">ADMISSION PROCESS</a></li>');
-//document.write('														<li><a href="/admission/admission.php#ADMISSIONPROCESS">ADMISSION PROCESS</a></li>');
-document.write('														<li><a href="https://admission.nist.edu/" target="_blank">ADMISSION TO COLLEGE OF ENGINEERING<img style="vertical-align:middle;" src="/images/new_animated.gif" alt="New Blink" width="26" height="26"></a></li>');
-document.write('														<li><a href="https://admission.nist.edu/" target="_blank">ADMISSION TO COLLEGE OF MANAGEMENT<img style="vertical-align:middle;" src="/images/new_animated.gif" alt="New Blink" width="26" height="26"></a></li>');
-document.write('														<li><a href="https://admission.nist.edu/" target="_blank">ADMISSION TO COLLEGE OF SCIENCE<img style="vertical-align:middle;" src="/images/new_animated.gif" alt="New Blink" width="26" height="26"></a></li>');
-//document.write('														<li><a href="/MSC/" target="_blank">ADMISSION TO COLLEGE OF SCIENCE<img style="vertical-align:middle;" src="/images/new_animated.gif" alt="New Blink" width="26" height="26"></a></li>');
-//document.write('														<li><a href="https://admission.nist.edu/" target="_blank">ADMISSION TO PHD PROGRAM<img style="vertical-align:middle;" src="/images/new_animated.gif" alt="New Blink" width="26" height="26"></a></li>');
-//document.write('														<li><a href="/PHD/" target="_blank">ADMISSION TO PHD PROGRAM<img style="vertical-align:middle;" src="/images/new_animated.gif" alt="New Blink" width="26" height="26"></a></li>');
-document.write('														<li><a href="/admission/admission.php#TOURTHECAMPUS">TOUR THE CAMPUS</a></li>');
-document.write('														<li><a href="/admission/admission.php#FAQ">ADMISSION FAQ</a></li>');
-document.write('														<li><a href="/admission/admission.php#DOWNLOAD">DOWNLOAD</a></li>');
-
-//document.write('														<li><a href="/MSC/forms/frmMScEntranceResult2020.php">M.Sc.Entrance Results 2020</a></li>');
-//document.write('														<li><a href="/MSC/forms/frmMScEntranceResult2020meritlist2.php">M.Sc.Entrance Results 2020 Merit List - 2</a></li>');
-//document.write('														<li><a href="/MSC/" class="announcement-icon"style="background:red; color:white;">MSC.ADMISSION APPLICATION<img style="vertical-align:middle;" src="/images/new_animated.gif" alt="New Blink" width="26" height="26"></a></li>');
-
-
-
 document.write('													</ul>');
 document.write('												</li>	');									
 document.write('											</ul>');
 document.write('										</li>');
 
-//document.write('										<li class="menu-ADMISSION announcement-section " style="background:red; height: auto; cursor:pointer"><a  target="_blank" rel="noopener noreferrer"  href="https://admission.nist.edu/"; class="announcement-icon"style="background:red; color:white;">ADMISSION OPEN</a></li>');
-//document.write('										<li class="menu-ADMISSION announcement-section " style="background:yellow; height: auto; cursor:pointer"><a href="/frmCertificateClerance.php"; class="announcement-icon"style="background:yellow; color:red;">CERTIFICATE APPOINTMENT</a></li>');
-
-//document.write('										<li class="menu-ADMISSION announcement-section " style="background:yellow; height: auto; cursor:pointer"><a  target="_blank" rel="noopener noreferrer"  href="https://nist.edu/Announcement/link/ARI-C-30132.pdf"; class="announcement-icon"style="background:red; color:white;">ARIIA</a></li>');
-//document.write('										<li class="menu-studentlife"><a href="/frmresultcheck.php">RESULTS</a></li>');
-//document.write('										<li class="menu-studentlife"><a href="/frmverifyregno.php">2020 Regd. No.</a></li>');
-//document.write('										<li class="menu-studentlife admission-btn"><a href="/admission/admission2020.php" style="color:#ffffff;">APPLY&nbsp;NOW</a></li>');
-//document.write('										<li class="menu-studentlife admission-btn"><a href="http://nist.edu/SpotAdmission/index.php" style="color:#ffffff;">SPOT ADMISSION</a></li>');
 document.write('									</ul>');
 
-//document.write('										<ul><li class="menu-studentlife"  ><a href="https://nist.edu/nmdc/">National Mathematics Day Riddle</a></li></ul>');
 
 document.write('								</div>');
 document.write('						</div>	');						
@@ -303,7 +241,4 @@ if (location.protocol !== 'https:') {
 }*/
 document.write('	<script type="text/javascript" language="javascript" src="/js/announcement_slider.js"></script>');
 document.write('	<script type="text/javascript" language="javascript" src="/js/search.js"></script>');
-// NPF code for 2024 start../
-// NPF code for 2024 end../
-
-
+/

@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ds0049');
+    src:  url('../fonts/icomoon.eot?ds0049#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ds0049') format('truetype'),
+      url('../fonts/icomoon.woff?ds0049') format('woff'),
+      url('../fonts/icomoon.svg?ds0049#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-agriculture:before {
+    content: "\e900";
+  }
+  .icon-EngineeringandArchitecture:before {
+    content: "\e901";
+  }
+  .icon-law:before {
+    content: "\e902";
+  }
+  .icon-Management:before {
+    content: "\e903";
+  }
+  .icon-MedicineHealthScience:before {
+    content: "\e904";
+  }
+  .icon-Others:before {
+    content: "\e905";
+  }
+  .icon-ScienceandHumanities:before {
+    content: "\e906";
+  }  
+
+.programmes {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+	margin-bottom: 20px;
+}
+.programmes_offered {
+	border: 1px solid #ddd;
+    border-radius: 2px;
+    text-align: left;
+	display:flex;
+	align-items: stretch;
+	justify-content:space-between;
+	box-shadow: 0 0 5px #eee;
+	width:49%;
+}
+.programmes_cat {
+    width: 40%; padding:10px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #024ca1;
+}
+.programmes_cat h4{     margin: 8px 0 0;
+    line-height: 24px;color:#666;}
+.programmes_list{
+	width:60%;
+	background-color: #f2f2f2;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.programmes_offered_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-top: 2px solid #fff;
+    height: 50%;
+}
+.programmes_offered_inner:first-child{border-top:none;}
+.programmes_offered_inner h5{
+    margin: 5px 0;
+}
+.view_special{
+    font-size: 12px;
+}
+.btn-line-primary {
+   border: 1px solid #286090;
+    color: #024ca1 !important;
+    line-height: 20px;
+    padding: 1px 8px 2px;
+    font-family: "opensanssemibold",sans-serif;
+}
+.btn-line-primary:hover{
+    border-color: #286090;
+    color: #fff !important;
+background-color:#024ca1;
+}

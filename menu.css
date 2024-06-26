@@ -1,0 +1,488 @@
+
+
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: opensans_bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: opensans_semibold;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: opensans_extrabold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.menu-container {
+    width: 100%;
+    margin: 0 auto;
+	font-family: opensans_semibold;
+	text-align:left;
+}
+
+.menu-mobile {
+    display: none;
+    padding: 20px;
+    //background-color: #ffffff;
+}
+
+.menu-mobile:after {
+    content: "\f394";
+    font-family: "Ionicons";
+    font-size: 3.5rem;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+    background-color: #ffffff;
+}
+
+.menu-dropdown-icon:before {
+    content: "\f489";
+    font-family: "Ionicons";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 1.5em 2em;
+    background: #fff;
+    color: #333;
+}
+
+.menu > ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+    box-sizing: border-box;
+}
+
+.menu > ul:before,
+.menu > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul:after {
+    clear: both;
+}
+/*
+.menu-about {
+    width:11%;
+}
+.menu-ACADEMIC {
+    width:10%;
+}
+.menu-CAMPUS {
+    width:10%;
+}
+.menu-PLACEMENT {
+    width:21%;
+}
+.menu-RnD {
+    width:12%;
+}
+.menu-studentlife{
+    width:12%;
+}
+*/
+.menu-STUDENTPROSPECTS {
+    //width:24%;
+}
+
+
+
+
+.menu > ul > li {
+    float: left;
+    padding: 0;
+    margin: 0;
+	color:#111728;
+
+}
+
+/* -------------------------------- MAIN MENU SIZE ------------------- */
+.menu > ul > li a {
+    text-decoration: none;
+    /* padding: 0.5em 1em; */
+	padding: 0.5em 0.80em;
+    display: block;
+	color:#111728;
+    //color:#ffffff;
+     font-size:.8vw;
+      //font-family: opensans;
+      letter-spacing: 0.5pt;
+        border-right:solid #bababa 1px;
+        padding-top:15px;
+         padding-bottom:15px;
+}
+
+.menu > ul > li:hover {
+	border-top:solid #df9d00 3px;
+    margin-top:-3px;
+
+
+}
+
+.menu > ul > li > ul {
+    display: none;
+    width: 75%;
+    background: #d9e4f1;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+	margin-top:1px;
+    margin-left:0%;
+	border-bottom:solid #df9d00 10px;
+
+}
+
+
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li {
+    margin-right: 7px;
+    padding-bottom: 0;
+    list-style: none;
+    width: 32%;
+	/*width: 35%;*/
+    background: none;
+    float: left;
+	font-weight:normal;
+}
+.menu-header  {
+	color: #df9d00;
+    padding: .3em 0;
+    width: 100%;
+    display: block;
+	font-weight:normal;
+	font-size: 1.1em;
+	font-family: opensans;
+}
+
+.menu > ul > li > ul > li a {
+    color: #111728;
+    padding: .2em 0;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #c9d5e2;
+    border-right: 0px solid #c9d5e2;
+	font-weight:normal;
+	font-size: .8em;
+	font-family: opensans;
+
+}
+
+.menu > ul > li > ul > li > ul {
+    display: block;
+    padding: 0;
+    margin: 0px 0px;
+    list-style: none;
+    box-sizing: border-box;
+	border:solid blue 0px;
+
+}
+
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    padding: 0px 0;
+    margin: 0;
+    font-size: 1em;
+		
+}
+
+
+.menu > ul > li > ul > li > ul > li a {
+    border: 0;
+	color:#111728;
+	font-weight:normal;
+
+}
+.menu > ul > li > ul > li > ul > li a:hover{
+    border: 0;
+	color:#df9d00;
+	font-weight:normal;
+    padding-left:5px;
+    -webkit-transition: 0.5s; /* Safari */
+  transition: 0.5s;
+}
+
+.menu > ul > li > ul.normal-sub {
+    width: 300px;
+    left: auto;
+    padding: 10px 20px;
+	border:solid red 0px;
+	font-size: .8em;
+	border-bottom:solid #df9d00 10px;
+}
+
+.menu > ul > li > ul.normal-sub > li {
+    width: 100%;
+}
+
+.menu > ul > li > ul.normal-sub > li a {
+    border: 0;
+    padding: 0.5em 0;	
+}
+.menu > ul > li > ul.normal-sub > li :hover {
+    color:#df9d00;	
+}
+.menuheader{
+	color:#df9d00;
+}
+
+.menu > ul > li > .placement-submenu {
+    display: none;
+    width: 50%;
+    background: #d9e4f1;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+	margin-top:1px;
+    margin-left:10%;
+	border-bottom:solid #df9d00 10px;
+}
+
+.menu > ul > li > .placement-submenu > li {
+    margin-right: 7px;
+    padding-bottom: 0;
+    list-style: none;
+    width: 48%;
+    background: none;
+    float: left;
+	font-weight:normal;
+}
+
+.menu > ul > li > .Tnist-submenu {
+    display: none;
+    width: 50%;
+    background: #d9e4f1;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    margin-top:1px;
+    border-bottom:solid #df9d00 10px;
+}
+
+.menu > ul > li > .Tnist-submenu > li {
+    margin-right: 7px;
+    padding-bottom: 0;
+    list-style: none;
+    width: 48%;
+    background: none;
+    float: left;
+    font-weight:normal;
+}
+
+.menu-Overview{
+    background-color:#df9d00;
+    color:#ffffff;
+    font-weight: normal;
+    background-size:100% 100%;
+
+}
+.menu-Overview >h2{
+    text-align: ;
+    padding:10px;
+    font-weight:normal; 
+    font-family: opensans;
+    margin-top:0px;
+    font-size:20px; 
+}
+.menu-Overview >p{
+    text-align: justify;
+    padding:10px;
+    margin-top:-20px;
+    font-weight:normal; 
+    font-size:14px; 
+    font-family: opensans;
+    line-height: 1.5;
+}
+.menu-Overview >hr{
+    margin-top:-15px;
+    width:95%;
+
+}
+.menu-desc{
+    color: #ffffff;
+}
+.about-block{
+    padding-left:10px;
+}
+
+.admission-btn {
+    background-color:#df9d00;
+    border-right:solid #df9d00 0px;
+    color:#ffffff;
+}
+
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 959px) {
+    .menu-container {
+        width: 100%;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    .menu-dropdown-icon:before {
+        display: block;
+    }
+    .menu > ul {
+        display: none;
+    }
+    .menu > ul > li {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .menu > ul > li a {
+        padding: 1.5em;
+        width: 100%;
+        display: block;
+    }
+    .menu > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul.normal-sub {
+        width: 100%;
+    }
+    .menu > ul > li > ul > li {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+        margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul > li > ul > li {
+        float: none;
+    }
+    .menu .show-on-mobile {
+        display: block;
+    }
+
+
+
+    .menu > ul > li > ul {
+    width: 100%;
+    margin-left:0%;
+
+}
+
+
+}
+
+@media (min-width: 577px) and (max-width: 888px){
+    .menu > ul > li a{
+     width:100%;
+     //border: solid red 1px;
+     font-size: 2.5vw;
+
+}
+}
+
+@media (min-width: 280px) and (max-width: 576px){
+
+
+.menu > ul > li a{
+     width:100%;
+     //border: solid red 1px;
+     font-size: 3vw;
+}
+.menu > ul> li {
+       min-height: 80px;
+}
+
+
+.menu > ul > li > .placement-submenu {
+    width: 90%;
+
+}
+
+.menu > ul > li > .placement-submenu > li {
+    width: 98%;
+    //border: solid red 1px;
+}
+
+
+.menu > ul > li > .Tnist-submenu {
+    width: 98%;
+}
+.menu > ul > li > .Tnist-submenu > li {
+    width: 98%;
+
+}
+
+.menu > ul > li > ul {
+    width: 95%;
+}
+
+.menu > ul > li > ul > li {
+    width: 98%;
+}
+
+
+
+}
+
+
+
+
+
+

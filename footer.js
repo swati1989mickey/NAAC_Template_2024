@@ -58,18 +58,12 @@ document.write('						<li><a href="/Payment/forms/frmPrivacyPolicy.php">Privacy 
 //document.write('						<li class="menu-studentlife"><a href="/IQAC/NAAC_Undertaking.pdf">NAAC</a></li>');
 document.write('<li class="menu-studentlife"><a href="/IQAC/iqac.html">NAAC</a></li>');
 //document.write('						<li class="menu-studentlife"><a href="/frmverifyregno.php.php">2020 New Regd. No. BPUT</a></li>');
-//document.write('						<li class="menu-studentlife"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdaX9Erohsw3RGAzN7brtjI8mK9zKcTt4mg2kNLGgaJbqNgCQ/viewform">HELP @ NIST MAIL</a></li>');
 document.write('						<li class="menu-studentlife"><a href="/frmresultcheck.php">RESULTS</a></li>');
 document.write('						<li class="menu-studentlife"><a href="/about/journals.pdf"  target="_blank">Journals</a></li>');
 document.write('						<li class="menu-studentlife"><a href="/about/NIST_Autonomous.html">NIST Autonomous</a></li>');
 //document.write('						<li class="menu-studentlife"><a href="http://nist.edu/SpotAdmission/frmOnlineReporting.php">SPOT ADMISSION</a></li>');
 document.write('						<li><a href="/about/aicte.html">AICTE Approval</a></li>');
 document.write('						<li><a href="/about/Accreditation_&_Certificates.html">Accreditation & Certificates</a></li>');
-document.write('						<li><a href="https://nist.edu/about/NBA_Accreditation.pdf"  target="_blank">NBA </a></li>');
-//document.write('						<li><a href="https://nist.edu/about/NAAC_Accreditation.pdf" target="_blank">NAAC </a></li>');
-document.write('						<li><a href="https://nist.edu/Announcement/agnipath.html">Agnipath Scheme</a></li>'); 
-document.write('						<li><a href="https://forms.gle/RiFJuFjFcqkUsfKL7" target="_blank">E-Grievance</a></li>'); 
-document.write('						<li><a href="https://forms.gle/Getyv3CXM8BLV1Da9" target="_blank">Feedback Form</a></li>'); 
 
 document.write('					</ul>');
 document.write('				</div>');
@@ -81,21 +75,11 @@ document.write('					<div class="col-md-4 col-xs-3">');
 document.write('					<img src="/images/nist.png" class="img-responsive footerlogo">');
 document.write('					</div>');
 document.write('					<div class="col-md-8 col-xs-9 footer-instuname">');
-document.write('						<p><b>NIST Institute of Science and Technology (Autonomous)</b><br>');
-//document.write('						<p><b>NIST UNIVERSITY</b><br>');
-//document.write('						Institute Park, Pallur Hills, Berhampur, Odisha<br> India, Pin:761008</p>');
-document.write('						Institute Park, Berhampur, <br> Odisha-761008, India</p>');
+
 document.write('					</div>');
 document.write('				</div> ');		
 document.write('				<div class="col-sm-5 col-xs-12 footersection footer-name">');
-document.write('					<p>');
-document.write('					   Phone : +91-0680-2492421/422,<br>');
-//document.write('					   Fax: +91-680-2492627<br>');
-//document.write('					   Call/WhatsApp: <a href="tel:+91-9090509010">9090509010 </a>  <a class="fa fa-whatsapp" aria-hidden="true" href="https://api.whatsapp.com/send?phone=919090509010&text=Hi%20Sir%20I%20am%20interested%20to%20know%20more..."target="_blank"></a>');
-//document.write('					    , <a href="tel:+91-7205326478">7205326478</a>  <a class="fa fa-whatsapp" aria-hidden="true" href="https://api.whatsapp.com/send?phone=917205326478&text=Hi%20Sir%20I%20am%20interested%20to%20know%20more..."target="_blank"></a>');
-//document.write('					   , <a href="tel:+91-7205336478">7205336478</a>  <a class="fa fa-whatsapp" aria-hidden="true" href="https://api.whatsapp.com/send?phone=917205336478&text=Hi%20Sir%20I%20am%20interested%20to%20know%20more..."target="_blank"></a><br>');
-document.write('					   Email: <a href="mailto:hello@nist.edu">info@nist.edu</a>,<a href="mailto:hello@nist.edu">hello@nist.edu<br></a>');
-document.write('					</p>');
+document.write('					
 document.write('				</div>');
 document.write('				<div class="col-sm-1"></div>');
 document.write('				<div class="col-sm-11 footer-name">');
